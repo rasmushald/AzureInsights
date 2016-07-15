@@ -39,7 +39,7 @@
       "type": "string"
     },
     "administratorLoginPassword": {
-      "type": "securestring"
+      "type": "string"
     },
     "databaseName": {
       "type": "string"
