@@ -4,12 +4,12 @@ $Location = "Central US"
 
 
 #Template Selection
-$TemplateFile = "C:\Users\rasmush\Work Folders\Conference\TR23\AZR310 - Deep-Dive with Azure Insights\WebSite.json"
-$TemplateParameterFile = "C:\Users\rasmush\Work Folders\Conference\TR23\AI\WebTest.parameters.json"
+$TemplateFile = <path to your template>
+$TemplateParameterFile = <path to your parameter file>
 
 # View current Azure PowerShell session context
 Get-AzureRmContext
-Login-AzureRmAccount -TenantId 76e5b891-f93f-43f4-ad6d-6723347d5253
+Login-AzureRmAccount
 
 $AzureRMparams = @{hostingPlanName=$RGName; siteName=$RGName}	
 
